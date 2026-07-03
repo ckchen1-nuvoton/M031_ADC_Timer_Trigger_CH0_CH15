@@ -20,8 +20,6 @@ Connect your oscilloscope probes to the following pins to benchmark the system e
 | **PB.0-15**| **Analog Inputs** | ADC0 Channel 0 to 15 input paths (Digital paths disabled). |
 | **PB.13/12**| **Debug UART0** | TX / RX for serial logging (`115200, 8-N-1`). |
 
-<img width="80%" alt="image" src="https://github.com/user-attachments/assets/3f77f3a6-1130-46f0-b1d7-f26556b58fdc" />
-
 ---
 
 ## 🛠️ Timing & Execution Logic
@@ -31,7 +29,7 @@ The calculation of the ADC conversion time is isolated from CPU thread jitter by
 1. **`TMR0_IRQHandler`:** Triggered at **20 KHz** (every 50µs). It auto-triggers the ADC hardware and pulls **`PA0` HIGH**.
 2. **`ADC_IRQHandler`:** Triggered as soon as the SAR ADC finishes its conversion. It pulls **`PA0` LOW**.
 
-
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/3f77f3a6-1130-46f0-b1d7-f26556b58fdc" />
 
 ## 💻 Environment
 * **MCU:** Nuvoton NuMicro M031 Series
