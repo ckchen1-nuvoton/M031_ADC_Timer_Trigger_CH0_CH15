@@ -20,6 +20,9 @@ Connect your oscilloscope probes to the following pins to benchmark the system e
 | **PB.0-15**| **Analog Inputs** | ADC0 Channel 0 to 15 input paths (Digital paths disabled). |
 | **PB.13/12**| **Debug UART0** | TX / RX for serial logging (`115200, 8-N-1`). |
 
+<img width="1773" height="738" alt="image" src="https://github.com/user-attachments/assets/3f77f3a6-1130-46f0-b1d7-f26556b58fdc" />
+
+
 ---
 
 ## 🛠️ Timing & Execution Logic
