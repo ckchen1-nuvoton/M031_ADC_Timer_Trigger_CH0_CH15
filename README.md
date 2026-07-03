@@ -1,4 +1,4 @@
-# Nuvoton M031 ADC Hardware Trigger & Timing Benchmark
+# M031 ADC Hardware Trigger & Timing Benchmark
 
 This project demonstrates how to implement a high-efficiency ADC sampling system using **Timer0 periodic hardware triggering** on the Nuvoton M031 microcontroller. It includes a benchmarking mechanism using GPIO toggling (`PA0`/`PA1`) to precisely measure peripheral latency via an oscilloscope.
 
